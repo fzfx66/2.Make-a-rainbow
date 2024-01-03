@@ -5,15 +5,13 @@
   } 
   body{
     background-color:white;
-    margin-top:-200px;
-    margin-left:-200px;
   }
   /* 背景自动填充 */
   .rainbow{
     height:200px;
     overflow:hidden;
-    margin-top:50%;  
-    margin-left:50%;
+    margin-top:45%;  
+    margin-left:45%;
   }
   /* 控制上半区显示 */
   .rainbow >div{
