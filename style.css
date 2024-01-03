@@ -1,0 +1,92 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  } 
+  body{
+    background-color:white;
+    margin-top:-200px;
+    margin-left:-200px;
+  }
+  /* 背景自动填充 */
+  .rainbow{
+    height:200px;
+    overflow:hidden;
+    margin-top:50%;  
+    margin-left:50%;
+  }
+  /* 控制上半区显示 */
+  .rainbow >div{
+    width:400px;
+    height:400px;
+    background-color:rgb(250,4,9);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 赤 */
+  .rainbow >div>div{
+    width:380px;
+    height:380px;
+    margin:10px;
+    background-color:rgb(250,148,2);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 橙 */
+  .rainbow >div>div>div{
+    width:360px;
+    height:360px;
+    margin:10px;
+    background-color:rgb(240,234,4);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 黄 */
+  .rainbow >div>div>div>div{
+    width:340px;
+    height:340px;
+    margin:10px;
+    background-color:rgb(6,212,49);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 绿 */
+  .rainbow >div>div>div>div>div{
+    width:320px;
+    height:320px;
+    margin:10px;
+    background-color:rgb(139,218,239);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 青 */
+  .rainbow >div>div>div>div>div>div{
+    width:300px;
+    height:300px;
+    margin:10px;
+    background-color:rgb(20,74,201);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 蓝 */
+  .rainbow >div>div>div>div>div>div>div{
+    width:280px;
+    height:280px;
+    margin:10px;
+    background-color:rgb(177,81,180);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 紫 */
+  .rainbow >div>div>div>div>div>div>div>div{
+    width:260px;
+    height:260px;
+    margin:10px;
+    background-color:rgb(255,255,255);
+    border-radius:50%;
+    overflow:hidden;
+  }
+  /* 中心白 */
+  
+  
+  
